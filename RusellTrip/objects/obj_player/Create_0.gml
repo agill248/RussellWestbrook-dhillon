@@ -1,10 +1,4 @@
 
-// Movement
-moveSpd = 2;
-xspd = 0;
-yspd = 0;
-
-
 // Event of Respawning obj_player
 respawn_x = x;
 respawn_y = y;
@@ -13,3 +7,8 @@ respawn_y = y;
 lives = 3;
 
 sprite_index = spr_player; 
+
+// Shooting
+// Bullet movement speed
+speed = 10; // Defines the bullet's speed
+direction = 0; // Change based on player aim (set dynamically when fired)
