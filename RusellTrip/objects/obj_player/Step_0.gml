@@ -42,3 +42,8 @@ if (keyboard_check_pressed(vk_space)) { // Checks if spacebar is pressed
     basketball.direction = 0; // Sets the bullet's direction (modify based on player facing direction)
     basketball.speed = 10; // Assigns speed to the bullet
 }
+
+// Gravity
+if (place_free(x,y+1)) gravity = 1;
+else gravity = 0;
+
