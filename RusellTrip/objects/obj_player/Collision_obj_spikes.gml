@@ -10,3 +10,6 @@ if (place_meeting(x, y, obj_spikes)) {
         game_end(); // End the game if lives run out
     }
 }
+
+// Speed Lose
+speed *= 0.20; 

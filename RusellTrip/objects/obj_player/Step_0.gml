@@ -1,9 +1,11 @@
 // Horizontal Movement
 if (keyboard_check(ord("A"))) { 
     motion_set(180,5); // Moves the player left
+	sprite_index = spr_playerL
 }
 else if (keyboard_check(ord("D"))) { 
-    motion_set(0,5);
+    motion_set(0,5); 
+    sprite_index = spr_playerR
 }
 
 // Vertical Movement
@@ -19,6 +21,11 @@ else
 {
     motion_set(0,0);
 }
+
+// Jumping
+
+ 
+
 
 // Player Life Management & Game Over Check
 if (place_meeting(x, y, obj_enemy)) { 
@@ -37,7 +44,7 @@ if (place_meeting(x, y, obj_enemy)) {
 }
 
 // Shooting
-if (keyboard_check_pressed(vk_space)) { // Checks if spacebar is pressed
+if (keyboard_check_pressed(vk_enter)) { // Checks if spacebar is pressed
     var basketball= instance_create_layer(x, y, "Instances", obj_basketball); // Creates a bullet instance
     basketball.direction = 0; // Sets the bullet's direction (modify based on player facing direction)
     basketball.speed = 10; // Assigns speed to the bullet
