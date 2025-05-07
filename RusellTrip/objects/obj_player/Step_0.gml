@@ -21,11 +21,10 @@ else
 {
     motion_set(0,0);
 }
-
 // Jumping
 
- 
-
+if (place_free(x,y+1)) gravity = 1;
+else gravity = 0;
 
 // Player Life Management & Game Over Check
 if (place_meeting(x, y, obj_enemy)) { 
@@ -50,7 +49,4 @@ if (keyboard_check_pressed(vk_enter)) { // Checks if spacebar is pressed
     basketball.speed = 10; // Assigns speed to the bullet
 }
 
-// Gravity
-if (place_free(x,y+1)) gravity = 1;
-else gravity = 0;
 

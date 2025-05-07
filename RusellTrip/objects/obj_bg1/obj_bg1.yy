@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_invis",
+  "name": "obj_bg1",
   "spriteId": {
-    "name": "spr_invis",
-    "path": "sprites/spr_invis/spr_invis.yy",
+    "name": "spr_bg1",
+    "path": "sprites/spr_bg1/spr_bg1.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
