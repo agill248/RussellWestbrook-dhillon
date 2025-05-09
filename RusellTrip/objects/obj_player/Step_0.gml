@@ -1,26 +1,27 @@
+var playerSpeed = slowDown ? 2 : 5; 
 // Horizontal Movement
 if (keyboard_check(ord("A"))) { 
-    motion_set(180,5); // Moves the player left
-	sprite_index = spr_playerL
-}
+    motion_set(180, playerSpeed); 
+    sprite_index = spr_playerL;
+} 
 else if (keyboard_check(ord("D"))) { 
-    motion_set(0,5); 
-    sprite_index = spr_playerR
+    motion_set(0, playerSpeed);
+    sprite_index = spr_playerR;
 }
 
 // Vertical Movement
 else if (keyboard_check(ord("W"))) { 
-    motion_set(90,5);
+    motion_set(90, playerSpeed);
 }
 else if (keyboard_check(ord("S"))) { 
-    motion_set(270,5);
+    motion_set(270, playerSpeed);
 }
 
-// If a key hasn't been pressed
-else
-{
-    motion_set(0,0);
+// If no key is pressed
+else {
+    motion_set(0, 0);
 }
+
 // Jumping
 
 if (place_free(x,y+1)) gravity = 1;
@@ -48,5 +49,6 @@ if (keyboard_check_pressed(vk_enter)) { // Checks if spacebar is pressed
     basketball.direction = 0; // Sets the bullet's direction (modify based on player facing direction)
     basketball.speed = 10; // Assigns speed to the bullet
 }
+
 
 

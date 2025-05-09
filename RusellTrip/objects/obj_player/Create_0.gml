@@ -9,6 +9,9 @@ lives = 3;
 sprite_index = spr_player; 
 
 // Shooting
-// Bullet movement speed
-speed = 10; // Defines the bullet's speed
-direction = 0; // Change based on player aim (set dynamically when fired)
+speed = 10; 
+direction = 0; 
+
+// Slow Down time ( navidrct on yt )
+defaultRoomSpeed = room_speed; 
+slowDown = false; 

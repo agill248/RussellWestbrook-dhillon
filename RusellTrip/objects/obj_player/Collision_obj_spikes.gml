@@ -11,5 +11,5 @@ if (place_meeting(x, y, obj_spikes)) {
     }
 }
 
-// Speed Lose
-speed *= 0.20; 
+
+
