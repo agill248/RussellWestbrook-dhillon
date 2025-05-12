@@ -46,9 +46,8 @@ if (place_meeting(x, y, obj_enemy)) {
 // Shooting
 if (keyboard_check_pressed(vk_enter)) { // Checks if spacebar is pressed
     var basketball= instance_create_layer(x, y, "Instances", obj_basketball); // Creates a bullet instance
-    basketball.direction = 0; // Sets the bullet's direction (modify based on player facing direction)
-    basketball.speed = 10; // Assigns speed to the bullet
-}
-
+    basketball.direction = 0; 
+    basketball.speed = 10; 
+} 
 
 

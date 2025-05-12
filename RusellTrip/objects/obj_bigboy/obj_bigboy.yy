@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_basketball",
+  "name": "obj_bigboy",
   "spriteId": {
-    "name": "spr_basketball",
-    "path": "sprites/spr_basketball/spr_basketball.yy",
+    "name": "spr_bigboy",
+    "path": "sprites/spr_bigboy/spr_bigboy.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,10 +24,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
