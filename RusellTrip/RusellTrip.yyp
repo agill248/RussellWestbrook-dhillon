@@ -36,7 +36,7 @@
     {"id":{"name":"obj_bigboy","path":"objects/obj_bigboy/obj_bigboy.yy",},"order":14,},
     {"id":{"name":"snd_bgmusic1","path":"sounds/snd_bgmusic1/snd_bgmusic1.yy",},"order":0,},
     {"id":{"name":"obj_nextlevel","path":"objects/obj_nextlevel/obj_nextlevel.yy",},"order":15,},
-    {"id":{"name":"Object20","path":"objects/Object20/Object20.yy",},"order":21,},
+    {"id":{"name":"obj_gamepoints","path":"objects/obj_gamepoints/obj_gamepoints.yy",},"order":21,},
     {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},"order":12,},
     {"id":{"name":"spr_playerR","path":"sprites/spr_playerR/spr_playerR.yy",},"order":1,},
     {"id":{"name":"spr_playerL","path":"sprites/spr_playerL/spr_playerL.yy",},"order":5,},

@@ -3,8 +3,7 @@
 respawn_x = x;
 respawn_y = y;
 
-// Set starting lives
-lives = 3;
+
 
 sprite_index = spr_player; 
 
