@@ -3,18 +3,22 @@ var playerSpeed = slowDown ? 2 : 5;
 if (keyboard_check(ord("A"))) { 
     motion_set(180, playerSpeed); 
     sprite_index = spr_playerL;
+	facing_direction = 180; // Left
 } 
 else if (keyboard_check(ord("D"))) { 
     motion_set(0, playerSpeed);
     sprite_index = spr_playerR;
+	facing_direction = 0; // right
 }
 
 // Vertical Movement
 else if (keyboard_check(ord("W"))) { 
     motion_set(90, playerSpeed);
+	facing_direction = 90; // Left
 }
 else if (keyboard_check(ord("S"))) { 
     motion_set(270, playerSpeed);
+	facing_direction = 360; // Left
 }
 
 // If no key is pressed
@@ -44,10 +48,10 @@ if (place_meeting(x, y, obj_enemy)) {
 }
 
 // Shooting
-if (keyboard_check_pressed(vk_enter)) { // Checks if spacebar is pressed
-    var basketball= instance_create_layer(x, y, "Instances", obj_basketball); // Creates a bullet instance
-    basketball.direction = 0; 
-    basketball.speed = 10; 
-} 
+if (keyboard_check_pressed(vk_space)) {
+    var basketball = instance_create_layer(x, y, "Instances", obj_basketball);
+    basketball.direction = facing_direction;
+    basketball.speed = 10;
+}
 
 

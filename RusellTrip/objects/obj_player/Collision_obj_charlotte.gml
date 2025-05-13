@@ -1,5 +1,5 @@
-if (place_meeting(x, y, obj_bigboy)) { 
-    lives -= 2; // Reduce lives
+if (place_meeting(x, y, obj_charlotte)) { 
+    lives -= 1; // Reduce lives
 
     // Check if player has lives left
     if (lives > 0) {
