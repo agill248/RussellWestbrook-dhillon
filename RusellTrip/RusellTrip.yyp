@@ -21,6 +21,7 @@
     {"id":{"name":"obj_spikes","path":"objects/obj_spikes/obj_spikes.yy",},"order":5,},
     {"id":{"name":"spr_takemenu","path":"sprites/spr_takemenu/spr_takemenu.yy",},"order":21,},
     {"id":{"name":"spr_bg2","path":"sprites/spr_bg2/spr_bg2.yy",},"order":16,},
+    {"id":{"name":"spr_nextlevel2","path":"sprites/spr_nextlevel2/spr_nextlevel2.yy",},"order":26,},
     {"id":{"name":"spr_bg1","path":"sprites/spr_bg1/spr_bg1.yy",},"order":11,},
     {"id":{"name":"obj_bgmusic2","path":"objects/obj_bgmusic2/obj_bgmusic2.yy",},"order":28,},
     {"id":{"name":"spr_nextlevel","path":"sprites/spr_nextlevel/spr_nextlevel.yy",},"order":15,},
@@ -50,6 +51,7 @@
     {"id":{"name":"snd_bgmusic1","path":"sounds/snd_bgmusic1/snd_bgmusic1.yy",},"order":0,},
     {"id":{"name":"obj_nextlevel","path":"objects/obj_nextlevel/obj_nextlevel.yy",},"order":15,},
     {"id":{"name":"Object20","path":"objects/Object20/Object20.yy",},"order":21,},
+    {"id":{"name":"Larol","path":"rooms/Larol/Larol.yy",},"order":4,},
     {"id":{"name":"Controls","path":"rooms/Controls/Controls.yy",},"order":3,},
     {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},"order":12,},
     {"id":{"name":"spr_playerR","path":"sprites/spr_playerR/spr_playerR.yy",},"order":1,},
@@ -86,6 +88,7 @@
     {"roomId":{"name":"Tutorial","path":"rooms/Tutorial/Tutorial.yy",},},
     {"roomId":{"name":"Controls","path":"rooms/Controls/Controls.yy",},},
     {"roomId":{"name":"Varlo","path":"rooms/Varlo/Varlo.yy",},},
+    {"roomId":{"name":"Larol","path":"rooms/Larol/Larol.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":10,},
