@@ -1,1 +1,1 @@
-room_goto(Varlo)
+room_goto(Carlo)

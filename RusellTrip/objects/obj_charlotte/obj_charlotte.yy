@@ -30,6 +30,8 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_spikes","path":"objects/obj_spikes/obj_spikes.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_bigboy","path":"objects/obj_bigboy/obj_bigboy.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_basketball","path":"objects/obj_basketball/obj_basketball.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_nextlevel2","path":"objects/obj_nextlevel2/obj_nextlevel2.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_nextlevel3","path":"objects/obj_nextlevel3/obj_nextlevel3.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
