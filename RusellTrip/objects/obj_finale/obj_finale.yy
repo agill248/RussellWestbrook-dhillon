@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_nextlevel3",
+  "name": "obj_finale",
   "spriteId": {
-    "name": "spr_nextlevel3",
-    "path": "sprites/spr_nextlevel3/spr_nextlevel3.yy",
+    "name": "spr_finale",
+    "path": "sprites/spr_finale/spr_finale.yy",
   },
   "solid": false,
   "visible": false,
