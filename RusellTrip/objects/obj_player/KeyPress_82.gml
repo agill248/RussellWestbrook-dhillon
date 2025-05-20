@@ -1,4 +1,5 @@
-room_goto(Finale)
+
+room_goto(Menu)
 with(all) {
     instance_destroy();
 }
